@@ -1,10 +1,11 @@
 server:
-  port: 8083
+  port: 8080
 
 spring:
   application:
     name: content-access
 
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/picture-dictionary
+logging:
+  level:
+    org.springframework.web: DEBUG
+    org.springframework: DEBUG
