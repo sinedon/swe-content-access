@@ -14,12 +14,6 @@ public class TopicController {
 
     public TopicController(TopicService topicService) {
         this.topicService = topicService;
-        System.out.println(">>> TopicController CREATED <<<");
-    }
-
-    @GetMapping("/test")
-    public String test() {
-        return "OK";
     }
 
     @GetMapping
@@ -31,4 +25,11 @@ public class TopicController {
     public Topic getTopic(@PathVariable String id) {
         return topicService.getTopicById(id);
     }
+
+    /*
+    CRUD on topic and hotspot documents in MongoDB. Business verbs:
+    POST /topics, GET /topics (table of contents), GET /topics/{id} (with embedded
+    hotspots), POST /topics/{id}/hotspots, PUT /topics/{id}/hotspots/{label}, DELETE
+    /topics/{id}
+    */
 }
