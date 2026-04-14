@@ -23,7 +23,7 @@ public class TopicService {
                                     10.0,
                                     53.0,
                                     Map.of("Spanish", "Manzana"),
-                                    Map.of()
+                                    Map.of("Spanish", "/audio/spanish_apple.mp3")
                             ),
                             new Hotspot(
                                     "Orange",
@@ -31,7 +31,7 @@ public class TopicService {
                                     24.0,
                                     23.0,
                                     Map.of("Spanish", "Naranja"),
-                                    Map.of()
+                                    Map.of("Spanish", "/audio/spanish_orange.mp3")
                             ),
                             new Hotspot(
                                     "Kiwi",
@@ -39,7 +39,7 @@ public class TopicService {
                                     67.0,
                                     35.0,
                                     Map.of("Spanish", "Kiwi"),
-                                    Map.of()
+                                    Map.of("Spanish", "/audio/spanish_kiwi.mp3")
                             ),
                             new Hotspot(
                                     "Raspberry",
@@ -47,7 +47,7 @@ public class TopicService {
                                     81.0,
                                     67.0,
                                     Map.of("Spanish", "Frambuesa"),
-                                    Map.of()
+                                    Map.of("Spanish", "/audio/spanish_raspberry.mp3")
                             )
                     )
             ),
