@@ -49,7 +49,6 @@ public class SeedData {
                                 )
                         )
                 ),
-
                 new Topic(
                         "vegetables",
                         "Vegetables",
@@ -79,6 +78,62 @@ public class SeedData {
                                         52.0,
                                         Map.of("Spanish", "Papa"),
                                         Map.of("Spanish", "/audio/spanish_potato.mp3")
+                                )
+                        )
+                ),
+                new Topic(
+                        "classroom",
+                        "Classroom",
+                        "/images/classroom.jpg",
+                        "School",
+                        List.of(
+                                new Hotspot(
+                                        "Paperclip",
+                                        "/images/paperclip.jpg",
+                                        63.0,
+                                        61.0,
+                                        Map.of("German", "Büroklammer"),
+                                        Map.of("German", "/audio/paperclip.mp3")
+                                ),
+                                new Hotspot(
+                                        "Colored Pencil",
+                                        "/images/colored_pencil.jpg",
+                                        36.0,
+                                        17.0,
+                                        Map.of("German", "Buntstift"),
+                                        Map.of("German", "/audio/colored_pencil.mp3")
+                                ),
+                                new Hotspot(
+                                        "Notebook",
+                                        "/images/notebook.jpg",
+                                        75.0,
+                                        12.0,
+                                        Map.of("German", "Notizbuch"),
+                                        Map.of("German", "/audio/notebook.mp3")
+                                ),
+                                new Hotspot(
+                                        "Pencil Sharpener",
+                                        "/images/pencil_sharpener.jpg",
+                                        33.0,
+                                        55.0,
+                                        Map.of("German", "Spitzer"),
+                                        Map.of("German", "/audio/pencil_sharpener.mp3")
+                                ),
+                                new Hotspot(
+                                        "Pen",
+                                        "/images/pen.jpg",
+                                        86.0,
+                                        48.0,
+                                        Map.of("German", "Stift"),
+                                        Map.of("German", "/audio/pen.mp3")
+                                ),
+                                new Hotspot(
+                                        "Eraser",
+                                        "/images/eraser.jpg",
+                                        28.0,
+                                        68.0,
+                                        Map.of("German", "Radiergummi"),
+                                        Map.of("German", "/audio/eraser.mp3")
                                 )
                         )
                 )

@@ -1,9 +1,9 @@
-package com.swe.project.contentaccess.model;
+package com.swe.project.contentaccess.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Map;
 
-public class Hotspot {
+public class HotspotRequest {
 
     @JsonProperty("label")
     private String label;
@@ -23,15 +23,15 @@ public class Hotspot {
     @JsonProperty("audioUrls")
     private Map<String, String> audioUrls;
 
-    public Hotspot() {
+    public HotspotRequest() {
     }
 
-    public Hotspot(String label,
-                   String imageUrl,
-                   double xPercent,
-                   double yPercent,
-                   Map<String, String> translations,
-                   Map<String, String> audioUrls) {
+    public HotspotRequest(String label,
+                          String imageUrl,
+                          double xPercent,
+                          double yPercent,
+                          Map<String, String> translations,
+                          Map<String, String> audioUrls) {
         this.label = label;
         this.imageUrl = imageUrl;
         this.xPercent = xPercent;
